@@ -1,0 +1,521 @@
+.Navbar {
+  background-color: #111111;
+  height: 86px;
+}
+
+#form-container {
+    margin-left: 3rem!important;
+    margin-right: 3rem!important;
+}
+
+.react-autosuggest__container
+{
+    position: relative;
+}
+
+.react-autosuggest__input
+{
+    width:          300%;
+    height:         36px;
+    padding:        10px;
+    border:         1px solid lightseagreen;
+    border-radius:  4px;
+}
+
+.react-autosuggest__input--focused
+{
+    outline: none;
+    border-color: #20b2aa;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(32, 178, 170, 0.6);
+}
+
+.react-autosuggest__input--open
+{
+    border-bottom-left-radius:  0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container
+{
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open
+{
+    display:            block;
+    position:           absolute;
+    width:              300%;
+    background-color: #FFFFFF;
+    border-radius:      0 0 4px 4px;
+    z-index:            2;
+    box-shadow:         0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip:    padding-box;
+}
+
+.react-autosuggest__suggestions-list
+{
+    margin:             0;
+    padding:            0;
+    list-style-type:    none;
+}
+
+.react-autosuggest__suggestion
+{
+    cursor:     pointer;
+    padding:    10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted
+{
+    background-color: #ddd;
+}
+
+
+.shortCode {
+  background-color: #20b2aa;
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+  font-size: small;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thingName {
+    font-size: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#help-icon {
+    color: #BBBBBB;
+    padding-right: 0.2em;
+    padding-top: 0.1em;
+    cursor: pointer;
+}
+
+#help-icon:hover {
+    color: white
+}
+
+@media screen and (max-width: 326px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 0rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              90%;
+  }
+  .react-autosuggest__input
+  {
+      width:          90%;
+  }
+
+}
+
+@media screen and (min-width: 327px) and (max-width: 361px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 0rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              90%;
+  }
+  .react-autosuggest__input
+  {
+      width:          90%;
+  }
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 374px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              110%;
+  }
+  .react-autosuggest__input
+  {
+      width:          110%;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 394px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              120%;
+  }
+  .react-autosuggest__input
+  {
+      width:          120%;
+  }
+
+}
+
+@media screen and (min-width: 395px) and (max-width: 410px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              130%;
+  }
+  .react-autosuggest__input
+  {
+      width:          130%;
+  }
+
+}
+
+@media screen and (min-width: 411px) and (max-width: 432px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              140%;
+  }
+  .react-autosuggest__input
+  {
+      width:          140%;
+  }
+
+}
+
+@media screen and (min-width: 433px) and (max-width: 448px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              150%;
+  }
+  .react-autosuggest__input
+  {
+      width:          150%;
+  }
+
+}
+
+@media screen and (min-width: 449px) and (max-width: 468px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              160%;
+  }
+  .react-autosuggest__input
+  {
+      width:          160%;
+  }
+
+}
+
+@media screen and (min-width: 469px) and (max-width: 486px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              170%;
+  }
+  .react-autosuggest__input
+  {
+      width:          170%;
+  }
+
+}
+
+@media screen and (min-width: 487px) and (max-width: 506px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              180%;
+  }
+  .react-autosuggest__input
+  {
+      width:          180%;
+  }
+
+}
+
+@media screen and (min-width: 507px) and (max-width: 526px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              190%;
+  }
+  .react-autosuggest__input
+  {
+      width:          190%;
+  }
+
+}
+
+@media screen and (min-width: 527px) and (max-width: 562px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              200%;
+  }
+  .react-autosuggest__input
+  {
+      width:          200%;
+  }
+
+}
+
+@media screen and (min-width: 563px) and (max-width: 574px) {
+  /* comes into effect for screens less than or equal to 560 pixels */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 1rem!important;
+      margin-right: 1rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              220%;
+  }
+  .react-autosuggest__input
+  {
+      width:          220%;
+  }
+
+}
+
+@media screen and (min-width: 575px) and (max-width: 600px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 2rem!important;
+      margin-right: 2rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              220%;
+  }
+  .react-autosuggest__input
+  {
+      width:          220%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 630px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  #form-container {
+      margin-left: 2rem!important;
+      margin-right: 2rem!important;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              230%;
+  }
+  .react-autosuggest__input
+  {
+      width:          230%;
+  }
+}
+
+@media screen and (min-width: 631px) and (max-width: 691px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #logo {
+    display: none;
+  }
+  .Navbar{
+      padding: 2px 2px;
+  }
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              240%;
+  }
+  .react-autosuggest__input
+  {
+      width:          240%;
+  }
+}
+
+@media screen and (min-width: 691px) and (max-width: 734px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              220%;
+  }
+  .react-autosuggest__input
+  {
+      width:          220%;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 768px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              240%;
+  }
+  .react-autosuggest__input
+  {
+      width:          240%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 824px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              260%;
+  }
+  .react-autosuggest__input
+  {
+      width:          260%;
+  }
+}
+
+@media screen and (min-width: 825px) and (max-width: 860px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .react-autosuggest__suggestions-container--open
+  {
+      width:              280%;
+  }
+  .react-autosuggest__input
+  {
+      width:          280%;
+  }
+}
+
+@media screen and (min-width: 861px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #help-icon
+  {
+     padding-right: 0.4em;
+  }
+}
