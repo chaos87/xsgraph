@@ -42,7 +42,9 @@ const edgeNames = {
     location: "located in",
     show: "located in",
     related: "related to",
-    byArtist: "recorded"
+    byArtist: "recorded",
+    artist: "signed",
+    label: "signed"
 };
 
 
@@ -294,6 +296,38 @@ export const createEdge = (...data) => {
                 color: '#0E4E4A',
                 highlight: '#1FA29A',
                 hover: '#1FA29A'
+            }
+        }
+    }
+    if (relation === "artist") {
+        edge = {
+            id: entity._id + "_label_" + parent,
+            from: entity._id,
+            to: parent,
+            label: edgeNames.artist,
+            arrows: {
+                to: true
+            },
+            "color": {
+                color: '#CC2F90',
+                highlight: '#DB6DB1',
+                hover: '#DB6DB1'
+            }
+        }
+    }
+    if (relation === "label") {
+        edge = {
+            id: parent + "_label_" + entity._id,
+            from: parent,
+            to: entity._id,
+            label: edgeNames.label,
+            arrows: {
+                to: true
+            },
+            "color": {
+                color: '#CC2F90',
+                highlight: '#DB6DB1',
+                hover: '#DB6DB1'
             }
         }
     }

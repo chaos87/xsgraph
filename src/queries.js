@@ -25,6 +25,11 @@ const queries = {
                average
                eventDate
            }
+           label {
+               _id
+               _type
+               name
+           }
         }
     }`,
     initAlbum: `
@@ -60,14 +65,13 @@ const queries = {
            _id
            _type
            name
-           release {
+           artist {
                _id
                _type
                image
                name
-               average
-               format
-               datePublished
+               description
+               sameAs
            }
         }
     }`,
@@ -125,6 +129,11 @@ const queries = {
                description
                sameAs
                image
+           }
+           label {
+               _id
+               _type
+               name
            }
         }
     }`,
@@ -185,15 +194,15 @@ const queries = {
           _id
           _type
           name
-          release {
+          artist {
               _id
               _type
               image
               name
-              average
-              format
-              datePublished
+              description
+              sameAs
           }
+
        }
     }`,
     getRelatedLocation: `

@@ -44,7 +44,7 @@ class SearchBar extends React.Component {
       }
 
       onSuggestionsFetchRequested = ({ value }) => {
-        fetch('https://knowledgif-testing-5911193733.eu-central-1.bonsaisearch.net:443/xsilence/_search', {
+        fetch('https://gimli-eu-west-1.searchly.com/xsilence/_search', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
