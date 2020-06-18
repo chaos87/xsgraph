@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efc15b3e275443ffc10a37cdb88de378",
+    "revision": "b32c89621ce112767d679c558b8bc938",
     "url": "/xsgraph/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xsgraph/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "95e89886af766fbcea3a",
+    "revision": "99081f1cdeb990bec88f",
     "url": "/xsgraph/static/css/main.42109c0f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xsgraph/static/js/2.5d3cd21c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95e89886af766fbcea3a",
-    "url": "/xsgraph/static/js/main.0e0e3c7d.chunk.js"
+    "revision": "99081f1cdeb990bec88f",
+    "url": "/xsgraph/static/js/main.1ce7fc7b.chunk.js"
   },
   {
     "revision": "385ac32aacb1f6e3398f",

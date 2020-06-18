@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xsgraph/static/css/main.42109c0f.chunk.css",
-    "main.js": "/xsgraph/static/js/main.0e0e3c7d.chunk.js",
-    "main.js.map": "/xsgraph/static/js/main.0e0e3c7d.chunk.js.map",
+    "main.js": "/xsgraph/static/js/main.1ce7fc7b.chunk.js",
+    "main.js.map": "/xsgraph/static/js/main.1ce7fc7b.chunk.js.map",
     "runtime-main.js": "/xsgraph/static/js/runtime-main.d2389818.js",
     "runtime-main.js.map": "/xsgraph/static/js/runtime-main.d2389818.js.map",
     "static/css/2.af3c1da9.chunk.css": "/xsgraph/static/css/2.af3c1da9.chunk.css",
     "static/js/2.5d3cd21c.chunk.js": "/xsgraph/static/js/2.5d3cd21c.chunk.js",
     "static/js/2.5d3cd21c.chunk.js.map": "/xsgraph/static/js/2.5d3cd21c.chunk.js.map",
     "index.html": "/xsgraph/index.html",
-    "precache-manifest.b2f95d0a8fddb0f54873229cb79e99dd.js": "/xsgraph/precache-manifest.b2f95d0a8fddb0f54873229cb79e99dd.js",
+    "precache-manifest.f5d2ba103d039f3eacaa3dbb1bef5fb0.js": "/xsgraph/precache-manifest.f5d2ba103d039f3eacaa3dbb1bef5fb0.js",
     "service-worker.js": "/xsgraph/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/xsgraph/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.42109c0f.chunk.css.map": "/xsgraph/static/css/main.42109c0f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.5d3cd21c.chunk.js",
     "static/css/main.42109c0f.chunk.css",
-    "static/js/main.0e0e3c7d.chunk.js"
+    "static/js/main.1ce7fc7b.chunk.js"
   ]
 }
