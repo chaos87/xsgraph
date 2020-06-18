@@ -15,7 +15,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install
-          REACT_APP_ELK_API_USER=${{ secrets.REACT_APP_ELK_API_USER }} REACT_APP_ELK_API_PASSWORD=${{ secrets.REACT_APP_ELK_API_PASSWORD }} npm run-script build
+          npm run-script build
         env:
             CI: ""
 

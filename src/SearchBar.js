@@ -48,7 +48,7 @@ class SearchBar extends React.Component {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Basic ' + btoa(process.env.REACT_APP_ELK_API_USER+':'+process.env.REACT_APP_ELK_API_PASSWORD)
+                'Authorization': 'Basic ' + btoa('xsilence_ro:zs53j7oazrpebz5wfzcfkubgqa8if4v3')
             },
             body: JSON.stringify({
                 query: {
