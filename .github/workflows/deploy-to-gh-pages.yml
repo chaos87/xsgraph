@@ -19,12 +19,11 @@ jobs:
         env:
             CI: ""
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
         env: # Or as an environment variable
           REACT_APP_ELK_API_USER: ${{ secrets.REACT_APP_ELK_API_USER }}
           REACT_APP_ELK_API_PASSWORD: ${{ secrets.REACT_APP_ELK_API_PASSWORD }}
