@@ -20,7 +20,11 @@ jobs:
             CI: ""
 
       - name: Deploy 🚀
-        run: npm run deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
         env: # Or as an environment variable
           REACT_APP_ELK_API_USER: ${{ secrets.REACT_APP_ELK_API_USER }}
           REACT_APP_ELK_API_PASSWORD: ${{ secrets.REACT_APP_ELK_API_PASSWORD }}
