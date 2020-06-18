@@ -23,7 +23,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./build
-        env: # Or as an environment variable
           REACT_APP_ELK_API_USER: ${{ secrets.REACT_APP_ELK_API_USER }}
           REACT_APP_ELK_API_PASSWORD: ${{ secrets.REACT_APP_ELK_API_PASSWORD }}
+          publish_dir: ./build
