@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
     "btoa": "^1.2.1",
-    "gh-pages": "^3.0.0",
+    "gh-pages": "^5.0.0",
     "react": "^16.12.0",
     "react-autosuggest": "^10.0.2",
     "react-bootstrap": "^1.0.1",
